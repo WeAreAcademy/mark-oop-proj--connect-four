@@ -60,7 +60,11 @@ You should:
 2. Estimate how long it will take to implement these
 3. Choose at least one of these to implement (including tests)
 
-## Exercise 4: Reflect on the process
+## Exercise 4: Document your work
+
+Create an `INSTRUCTIONS.md` which will help other people use the code you've written.
+
+## Exercise 5: Reflect on the process
 
 For the Tic Tac Toe project, you were amending some existing code.
 

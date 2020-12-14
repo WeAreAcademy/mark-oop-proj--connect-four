@@ -40,7 +40,7 @@ describe('Core ConnectFour tests', () => {
         ['', '', 'X', 'O', '', '', '']
       ])
 
-      expect(game.getStatus()).toBe({
+      expect(game.getStatus()).toEqual({
         isComplete: false,
         turnPlayer: 'O'
       })

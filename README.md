@@ -2,11 +2,14 @@
 
 ---
 module: object-oriented programming
+
 level: 2
+
 methods:
   - team
   - pair
   - solo
+
 tags:
   - wip
 ---

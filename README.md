@@ -18,7 +18,7 @@ tags:
 
 ## Context
 
-You work for a game development company.
+You are interning for a game development company.
 
 After your [great work on Tic Tac Toe](https://github.com/WeAreAcademy/mark-oop-proj--tic-tac-toe), you have been tasked with creating a Connect Four game.
 

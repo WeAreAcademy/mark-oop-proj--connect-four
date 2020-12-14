@@ -95,8 +95,18 @@ describe('Core ConnectFour tests', () => {
 
     it('Logs out a message when an invalid column is provided', () => {
       const consoleSpy = jest.spyOn(console, 'log')
+
       game.dropCounter(10)
       expect(consoleSpy).toHaveBeenCalledWith("You can't place a counter in column 10 - that's not a valid column in our board! Why don't you try somewhere else?")
+
+      game.dropCounter(-473)
+      expect(consoleSpy).toHaveBeenCalledWith("You can't place a counter in column -473 - that's not a valid column in our board! Why don't you try somewhere else?")
+
+      game.dropCounter(52.9)
+      expect(consoleSpy).toHaveBeenCalledWith("You can't place a counter in column 52.9 - that's not a valid column in our board! Why don't you try somewhere else?")
+
+      game.dropCounter(NaN)
+      expect(consoleSpy).toHaveBeenCalledWith("You can't place a counter in column NaN - that's not a valid column in our board! Why don't you try somewhere else?")
     })
 
     it('Prints a visual board', () => {
